@@ -1,11 +1,11 @@
 language: java
 jdk: 
- -openjdk8
+ - openjdk8
 
 addons:
  sonarcloud:
   organization: wkmcinty
   token: df0d3796163fe4f2f51f556aa78f9a1d6cdfa077
 script: 
- -ant build
- -sonar-scanner 
+ - ant build
+ - sonar-scanner 
